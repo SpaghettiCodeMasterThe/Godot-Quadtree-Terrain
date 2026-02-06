@@ -17,3 +17,8 @@ Exemple with lower continent noise frequency, it create a coastline:
 - Change the smoothstep to a bigger value if the coast is too flat
 
 ![smoothstep](https://github.com/user-attachments/assets/03b56167-d0c5-4c15-ad1e-4b1865f5480f)
+
+- You can change any value for the noise but the frequency need to be changed separatly (the 1/10000 tab) under it, for every noise there is a frequency
+
+![noise](https://github.com/user-attachments/assets/c37cb9f2-a15a-4394-9264-5d99f2b09a21)
+
