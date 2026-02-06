@@ -72,7 +72,7 @@ func setup_noises() -> int:
 		mountain_noise.fractal_type = b_mountain_noise_fractal_type
 		mountain_noise_frequency = b_mountain_noise_frequency
 		
-	if mountain_noise == null or use_best_values:
+	if hill_noise == null or use_best_values:
 		hill_noise = FastNoiseLite.new()
 		hill_noise.noise_type = b_hill_noise_type
 		hill_noise_frequency = b_hill_noise_frequency

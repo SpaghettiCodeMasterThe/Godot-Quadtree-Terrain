@@ -28,8 +28,10 @@ func _ready():
 	if Engine.is_editor_hint():
 		camera = EditorInterface.get_editor_viewport_3d().get_camera_3d()
 	else:
-		printerr("terrain.gd: Add in game camera")
-		return
+		camera = get_viewport().get_camera_3d()
+		if camera == null:
+			printerr("terrain.gd: Add in game camera")
+			return
 	
 	update_quadtree()
 
