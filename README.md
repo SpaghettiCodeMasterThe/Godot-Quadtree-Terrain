@@ -20,5 +20,6 @@ Exemple with lower continent noise frequency, it create a coastline:
 
 - You can change any value for the noise but the frequency need to be changed separatly (the 1/10000 tab) under it, for every noise there is a frequency
 
-![noise](https://github.com/user-attachments/assets/c37cb9f2-a15a-4394-9264-5d99f2b09a21)
+![noise](https://github.com/user-attachments/assets/25e6281e-4d11-4cae-8fa8-16cd42be832c)
+
 
