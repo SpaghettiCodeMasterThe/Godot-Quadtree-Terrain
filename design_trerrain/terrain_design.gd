@@ -18,7 +18,6 @@ var current_nodes = {}
 
 var generation_in_progress = false
 
-@onready var debug_node = $"../Debug"
 @onready var terrain_noise_node = $"../Noise"
 @onready var terrain_mesh_node = $"../Mesh"
 

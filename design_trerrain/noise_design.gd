@@ -12,7 +12,7 @@ var keep_seed = false
 @export var mountain_noise: FastNoiseLite
 @export var hill_noise: FastNoiseLite
 
-@onready var terrain_node = $"../Terrain Design"
+@onready var terrain_node = $"../Terrain"
 
 @export_category("1/10000")
 @export var continent_noise_frequency = 0.1

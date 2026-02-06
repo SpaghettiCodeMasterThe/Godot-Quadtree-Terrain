@@ -2,7 +2,7 @@
 extends Node
 
 @onready var terrain_noise_node = $"../Noise"
-@onready var terrain_design_node = $"../Terrain Design"
+@onready var terrain_design_node = $"../Terrain"
 
 var resolution: int
 
