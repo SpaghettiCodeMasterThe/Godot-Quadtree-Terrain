@@ -9,7 +9,8 @@ Design terrain with simplified version of terrain that let configure and see noi
 ![result](https://github.com/user-attachments/assets/ad2dd36c-4668-43cf-bd15-4505bc99fe97)
 
 - Click on noise node to change noise settings, ! Uncheck keep seed and play with continent value for exemple, the noise script will find a seed with mostly terrain over water in the middle and return a valid seed, or it will tell you if it did not find any valid seed.
-Exemple with lower continent noise frequency it create a coastline:
+Exemple with lower continent noise frequency, it create a coastline:
+- Continent flatness is how much we keep continent noise altitude, 1 mean the continent is flat, only spawning hill and mountain.
 
 ![coast](https://github.com/user-attachments/assets/75aa3d73-397c-4afa-8124-41fcf13c27b0)
 
